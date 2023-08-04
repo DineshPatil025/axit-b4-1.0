@@ -235,3 +235,46 @@ nav.navbar.navbar-expand-lg.bg-light {
     color: var(--color-pri);
     border: 2px solid var(--color-pri);
 }
+
+
+/* ############ SICIAL MEDIA SECTION CSS */
+.sectionMedia {
+    padding: 20px 0;
+    border-bottom: 2px solid var(--color-border);
+}
+
+.sectionMedia h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.sectionMedia p {
+    font-size: 14px;
+    color: var(--color-text-sec);
+
+}
+
+.sectionMedia i {
+    font-size: 40px;
+    color: var(--color-text-sec);
+    transition: all .3s ease-in-out;
+}
+
+.social-icons a:nth-child(even):hover i {
+    font-size: 40px;
+    transform: rotate(-20deg) scale(2);
+    color: var(--color-pri);
+}
+
+.social-icons a:nth-child(odd):hover i {
+    font-size: 40px;
+    transform: rotate(20deg) scale(2);
+    color: var(--color-pri);
+}
+
+
+.sectionMedia .social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
