@@ -82,3 +82,156 @@ nav.navbar.navbar-expand-lg.bg-light {
     border-color: var(--color-pri);
     color: var(--color-pri);
 }
+
+
+
+
+
+/* HERO SECTION CSS */
+.heroSection {
+
+    /* height: calc(100vh - 57.7px); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/heroImg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    object-fit: cover;
+
+}
+
+
+.short-border {
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.short-border::after {
+    content: "";
+    position: absolute;
+    width: 65px;
+    bottom: -45px;
+    height: 3px;
+    background: var(--color-pri);
+    left: 5px;
+}
+
+.heroPara {
+    margin-bottom: 2rem;
+}
+
+.primaryBtn {
+    border-color: var(--color-white);
+    color: white;
+    padding: 10px 30px;
+    position: relative;
+    font-weight: 700;
+    background-color: transparent;
+    z-index: 1;
+}
+
+
+.primaryBtn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-pri);
+    width: 0;
+    height: 100%;
+    z-index: -1;
+    transition: all ease-in-out 0.7s;
+
+}
+
+.primaryBtn::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--color-pri);
+    width: 0;
+    height: 100%;
+    z-index: -1;
+    transition: all ease-in-out 0.7s;
+
+}
+
+.primaryBtn:hover::before,
+.primaryBtn:focus::before,
+.primaryBtn:active::before {
+    width: 50%;
+}
+
+.primaryBtn:hover::after,
+.primaryBtn:focus::after,
+.primaryBtn:active::after {
+    width: 50%;
+}
+
+
+
+
+/* ##### TRAIL FORM CSS #### */
+.formTrial span {
+    color: var(--color-pri);
+    text-transform: uppercase;
+}
+
+.formTrial .header {
+    background-color: var(--color-sec);
+}
+
+.card {
+    border: 0;
+}
+
+.formTrial h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.formTrial .form-control {
+    border: 0;
+    padding: 36px;
+}
+
+.formTrial input::placeholder {
+    color: var(--color-placeH);
+    border-bottom: 2px solid var(--color-placeH);
+    padding: 10px;
+    /* border-bottom:100% ; */
+}
+
+.formTrial .btnSecondary {
+    width: 100%;
+    padding: 14px !important;
+    background-color: var(--color-pri);
+    text-align: center;
+    border: none;
+    border-radius: 2px;
+    color: var(--color-white);
+    font-weight: 500;
+    font-size: 22px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+
+.formTrial .card-footer {
+    padding: 0;
+    background-color: rgba(0, 0, 0, .03);
+    border: 1px solid rgba(0, 0, 0, .125);
+}
+
+.formTrial .btnSecondary {
+
+    border: 2px solid var(--color-pri);
+}
+
+.formTrial .btnSecondary:hover {
+    background-color: #fff;
+    color: var(--color-pri);
+    border: 2px solid var(--color-pri);
+}
