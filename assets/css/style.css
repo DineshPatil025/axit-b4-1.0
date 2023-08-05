@@ -356,3 +356,18 @@ nav.navbar.navbar-expand-lg.bg-light {
 .tabFeature1 h2 {
     margin-bottom: 40px;
 }
+
+.feature2 .leftImg img{
+    transition: all 0.9s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    /* box-shadow: 2px 5px 5px rgba(0, 0, 0, .3); */
+
+}
+
+.feature2 .leftImg img:hover{
+    transition: all 0.9s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    /* box-shadow: 4px 10px 10px rgba(0, 0, 0, .5); */
+    transform: scale(1.03);
+
+}
