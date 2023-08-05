@@ -278,3 +278,52 @@ nav.navbar.navbar-expand-lg.bg-light {
     justify-content: space-between;
     align-items: center;
 }
+
+
+
+/* ###### FEATURE ONE SECTION #### */
+
+
+.feature1 {
+    background-color: var(--color-sec);
+}
+
+
+
+.tabFeature1 {
+    display: flex;
+    /* flex-direction: column; */
+}
+
+#myTab {
+
+    flex-direction: column;
+    background-color: var(--color-tab);
+    border-radius: 5px;
+}
+
+.tabFeature1 .nav-link.active {
+    background-color: var(--color-pri);
+    color: var(--color-white);
+}
+
+.tabFeature1 .nav-link {
+    width: 110px;
+    height: 110px;
+    color: var(--color-white);
+}
+
+
+.feature1Img .feature1Img {
+    background-color: transparent;
+}
+
+
+#myTabContent .primaryBtn {
+    border-color: var(--color-dark);
+    color: var(--color-dark);
+    margin-top: 40px;
+}
+
+
+/* ###### FEATURE 2 SECTION #### */
