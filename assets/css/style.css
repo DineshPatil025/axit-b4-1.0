@@ -327,3 +327,32 @@ nav.navbar.navbar-expand-lg.bg-light {
 
 
 /* ###### FEATURE 2 SECTION #### */
+
+.coudIcon{
+    width: 40px;
+    height: 40px;
+    border: 2px solid var(--color-pri);
+    border-radius: 50%;
+    margin-right: 0 !important;
+}
+
+.coudIcon  {
+    cursor: pointer;
+    color: var(--color-dark);
+    transition: all 0.9s ease-in-out;
+    color: var(--color-pri);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, .3);
+}
+
+.coudIcon:hover {
+    color: var(--color-pri);
+    box-shadow: 4px 10px 10px rgba(0, 0, 0, .5);
+    transform: scale(1.08);
+
+
+}
+
+.tabFeature1 h2 {
+    margin-bottom: 40px;
+}
