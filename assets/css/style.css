@@ -371,3 +371,23 @@ nav.navbar.navbar-expand-lg.bg-light {
     transform: scale(1.03);
 
 }
+
+
+/* ######     FEATURE 3 SECTION  ####### */
+
+.feature3{
+    background-color: var(--color-sec);
+}
+
+.feature3 .rightImg img{
+    transition: all 0.3s ease-in-out;
+    /* box-shadow: 2px 5px 5px rgba(0, 0, 0, .3); */
+
+}
+
+.feature3 .rightImg img:hover{
+    transition: all 0.3s ease-in-out;
+    /* box-shadow: 4px 10px 10px rgba(0, 0, 0, .5); */
+    transform: scale(1.03);
+
+}
