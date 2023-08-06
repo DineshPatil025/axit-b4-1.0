@@ -117,6 +117,8 @@ nav.navbar.navbar-expand-lg.bg-light {
     left: 5px;
 }
 
+
+
 .heroPara {
     margin-bottom: 2rem;
 }
@@ -183,7 +185,7 @@ nav.navbar.navbar-expand-lg.bg-light {
     background-color: var(--color-sec);
 }
 
-.card {
+.formTrial .card {
     border: 0;
 }
 
@@ -419,4 +421,79 @@ nav.navbar.navbar-expand-lg.bg-light {
     width: 80px;
     height: 80px;
     margin-bottom: 30px;
+}
+
+/* ##### PRICING SECTION CSS ##### */
+
+.pricing .short-border::after {
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.pricing .short-border {
+    position: relative;
+    margin-bottom: 68px;
+}
+
+.pricing .card-header{
+    background-color: var(--color-tab);
+    color: var(--color-white);
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 22px 0;
+    border-bottom: 1px solid var(--color-sec);
+}
+
+.pricing .plan-details{
+    background-color: var(--color-tab);
+    color: var(--color-white);
+padding: 1.75rem 0 1.25rem;
+border-bottom: 5px solid var(--color-pri);
+}   
+
+
+.plan-price {
+    font-size: 35px;
+}
+
+.plan-price span{
+    font-size: 95px;
+    margin-left: -10px;
+}
+
+.time-span{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.plan-offering li{
+    color: var(--color-text-sec);
+    border: 0;
+}
+
+.pricing .card{
+    border: 0px;
+}
+ 
+
+.plan-offering li:not(:last-child){
+    border-bottom: 2px solid var(--color-sec);
+}
+
+/* popular carc css */
+.mostPopular .plan-details{
+    border: 0px;
+}
+
+.mostPopular .popularInfo{
+    color: var(--color-white);
+    background-color: var(--color-pri);
+    padding: 15px 0;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+img{
+    max-width: 100%;
 }
