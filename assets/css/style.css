@@ -482,6 +482,10 @@ border-bottom: 5px solid var(--color-pri);
 }
 
 /* popular carc css */
+.pricing{
+    background-color: var(--color-sec)
+}
+
 .mostPopular .plan-details{
     border: 0px;
 }
