@@ -328,7 +328,7 @@ nav.navbar.navbar-expand-lg.bg-light {
 
 /* ###### FEATURE 2 SECTION #### */
 
-.coudIcon{
+.coudIcon {
     width: 40px;
     height: 40px;
     border: 2px solid var(--color-pri);
@@ -336,7 +336,7 @@ nav.navbar.navbar-expand-lg.bg-light {
     margin-right: 0 !important;
 }
 
-.coudIcon  {
+.coudIcon {
     cursor: pointer;
     color: var(--color-dark);
     transition: all 0.9s ease-in-out;
@@ -357,14 +357,14 @@ nav.navbar.navbar-expand-lg.bg-light {
     margin-bottom: 40px;
 }
 
-.feature2 .leftImg img{
+.feature2 .leftImg img {
     transition: all 0.9s ease-in-out;
     transition: all 0.3s ease-in-out;
     /* box-shadow: 2px 5px 5px rgba(0, 0, 0, .3); */
 
 }
 
-.feature2 .leftImg img:hover{
+.feature2 .leftImg img:hover {
     transition: all 0.9s ease-in-out;
     transition: all 0.3s ease-in-out;
     /* box-shadow: 4px 10px 10px rgba(0, 0, 0, .5); */
@@ -375,19 +375,48 @@ nav.navbar.navbar-expand-lg.bg-light {
 
 /* ######     FEATURE 3 SECTION  ####### */
 
-.feature3{
+.feature3 {
     background-color: var(--color-sec);
 }
 
-.feature3 .rightImg img{
+.feature3 .rightImg img {
     transition: all 0.3s ease-in-out;
     /* box-shadow: 2px 5px 5px rgba(0, 0, 0, .3); */
 
 }
 
-.feature3 .rightImg img:hover{
+.feature3 .rightImg img:hover {
     transition: all 0.3s ease-in-out;
     /* box-shadow: 4px 10px 10px rgba(0, 0, 0, .5); */
     transform: scale(1.03);
 
+}
+
+
+/* ##### AWESOME SECTION CSS ##### */
+
+
+.awesome .short-border::after {
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.awesome .short-border {
+    position: relative;
+    margin-bottom: 68px;
+}
+
+.awesome .awesomeCol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.awesome .coudIcon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 30px;
 }
