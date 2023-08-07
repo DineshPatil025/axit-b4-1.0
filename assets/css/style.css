@@ -509,3 +509,53 @@ img{
     max-width: 100%;
 }
 
+/* FEEDBACK SECTION CSS */
+
+
+
+.feedback .short-border::after {
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+
+.feedback blockquote{
+    background-color: var(--color-sec);
+    padding: 25px 15px;
+    border-radius:5px ;
+    margin-bottom: 25px;
+    position: relative;
+
+}
+.feedback blockquote::before{
+   content: "";
+   display: inline-block;
+   width: 20px;
+   height: 20px;
+   background-color: var(--color-sec);
+   position: absolute;
+   bottom: -10px;
+   transform: rotate(45deg);
+
+}
+
+
+
+/* .shape{
+    background-color: var(--color-sec);
+    position: relative;
+}
+
+.shape::after{
+    content: '';
+    height: 0;
+    width: 0;
+    border-top: 15px solid red;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid transparent;
+    position: absolute;
+    top: 100%;
+
+} */
