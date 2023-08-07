@@ -559,3 +559,29 @@ img{
     top: 100%;
 
 } */
+
+
+
+
+
+/* DESIGN SECTION CSS */
+
+.design {
+
+    /* height: calc(100vh - 57.7px); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../images/u25_state0.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    object-fit: cover;
+
+}
+
+.design .short-border::after {
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--color-white);
+
+}
