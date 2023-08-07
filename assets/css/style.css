@@ -8,7 +8,7 @@
     --color-text-pri: #212121;
     --color-border: #b7b7b7;
     --color-tab: #333;
-    --color-mb:#d6d6d6;
+    --color-mb: #d6d6d6;
 
 }
 
@@ -263,13 +263,13 @@ nav.navbar.navbar-expand-lg.bg-light {
     transition: all .3s ease-in-out;
 }
 
-.social-icons a:nth-child(even):hover i {
+.sectionMedia .social-icons a:nth-child(even):hover i {
     font-size: 40px;
     transform: rotate(-20deg) scale(2);
     color: var(--color-pri);
 }
 
-.social-icons a:nth-child(odd):hover i {
+.sectionMedia .social-icons a:nth-child(odd):hover i {
     font-size: 40px;
     transform: rotate(20deg) scale(2);
     color: var(--color-pri);
@@ -437,7 +437,7 @@ nav.navbar.navbar-expand-lg.bg-light {
     margin-bottom: 68px;
 }
 
-.pricing .card-header{
+.pricing .card-header {
     background-color: var(--color-tab);
     color: var(--color-white);
     font-size: 1.25rem;
@@ -446,59 +446,60 @@ nav.navbar.navbar-expand-lg.bg-light {
     border-bottom: 1px solid var(--color-sec);
 }
 
-.pricing .plan-details{
+.pricing .plan-details {
     background-color: var(--color-tab);
     color: var(--color-white);
-padding: 1.75rem 0 1.25rem;
-border-bottom: 5px solid var(--color-pri);
-}   
+    padding: 1.75rem 0 1.25rem;
+    border-bottom: 5px solid var(--color-pri);
+}
 
 
 .plan-price {
     font-size: 35px;
 }
 
-.plan-price span{
+.plan-price span {
     font-size: 95px;
     margin-left: -10px;
 }
 
-.time-span{
+.time-span {
     font-weight: 500;
     font-size: 14px;
 }
 
-.plan-offering li{
+.plan-offering li {
     color: var(--color-text-sec);
     border: 0;
 }
 
-.pricing .card{
+.pricing .card {
     border: 0px;
     box-shadow: 3px 5px 5px rgb(82, 79, 79);
     transition: all 0.4s ease-in-out;
 }
-.pricing .card:hover{
+
+.pricing .card:hover {
     box-shadow: 5px 10px 10px rgb(82, 79, 79);
 
     transform: translateY(-4px) scale(1.04);
 }
- 
 
-.plan-offering li:not(:last-child){
+
+.plan-offering li:not(:last-child) {
     border-bottom: 2px solid var(--color-sec);
 }
 
 /* popular carc css */
-.pricing{
+.pricing {
     background-color: var(--color-sec)
 }
 
-.mostPopular .plan-details{
+.mostPopular .plan-details {
     border: 0px;
 }
 
-.mostPopular .popularInfo{
+.mostPopular .popularInfo {
     color: var(--color-white);
     background-color: var(--color-pri);
     padding: 15px 0;
@@ -506,13 +507,13 @@ border-bottom: 5px solid var(--color-pri);
     font-weight: 700;
 }
 
-img{
+img {
     max-width: 100%;
 }
 
 /* FEEDBACK SECTION CSS */
 
-.feedBackCard{
+.feedBackCard {
     width: 90%;
 }
 
@@ -531,23 +532,24 @@ img{
 
 }
 
-.feedback blockquote{
+.feedback blockquote {
     background-color: var(--color-sec);
     padding: 25px 15px;
-    border-radius:5px ;
+    border-radius: 5px;
     margin-bottom: 25px;
     position: relative;
 
 }
-.feedback blockquote::before{
-   content: "";
-   display: inline-block;
-   width: 20px;
-   height: 20px;
-   background-color: var(--color-sec);
-   position: absolute;
-   bottom: -10px;
-   transform: rotate(45deg);
+
+.feedback blockquote::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: var(--color-sec);
+    position: absolute;
+    bottom: -10px;
+    transform: rotate(45deg);
 
 }
 
@@ -603,21 +605,24 @@ img{
     transform: translateX(-50%);
 }
 
-.message-group{
+.message-group {
     height: calc(100% - 1rem);
 }
-.message-group textarea{
+
+.message-group textarea {
     height: 100% !important;
-} 
+}
+
 #contactInfo .form-control {
     border: 0;
     border-radius: unset;
     border-bottom: 1px solid var(--color-mb);
     outline: none;
     box-shadow: none;
-    
+
 }
-#contactInfo .form-control::placeholder{
+
+#contactInfo .form-control::placeholder {
     columns: var(--color-placeH);
 }
 
@@ -627,3 +632,32 @@ img{
     margin-top: 40px;
 }
 
+
+/* FOOTER SECTION CSS */
+
+.footer i {
+    font-size: 25px;
+    margin-right: 32px;
+    color: var(--color-text-sec);
+    transition: all .3s ease-in-out;
+}
+
+.footer a:nth-child(even):hover i {
+    transform: rotate(-20deg) scale(1.07);
+    color: var(--color-pri);
+}
+
+.footer a:nth-child(odd):hover i {
+    transform: rotate(20deg) scale(1.07);
+    color: var(--color-pri);
+}
+
+
+.footer {
+    padding: 25px 15px;
+    background-color: var(--color-dark);
+}
+
+.footer p{
+    color: var(--color-sec);
+}
